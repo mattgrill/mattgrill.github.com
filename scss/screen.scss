@@ -1,3 +1,12 @@
+/* Some Colors */
+$tan:         #E9F1DF;
+$orange:      #F5A503;
+$light-blue:  #4AD9D9;
+$dark-blue:   #36B1BF;
+$brown:       #433547;
+$pink:        #F2385A;
+$white:       #FFF;
+
 html {
   font-size: 62.5%;
   font-family: "proxima-nova",sans-serif;
@@ -5,7 +14,7 @@ html {
 }
 
 body {
-  background: #E9F1DF;
+  background: $tan;
   padding: 15px;
 }
 
@@ -16,13 +25,13 @@ body {
 }
 
 .content {
-  background: #fff;
+  background: $white;
   padding: 15px;
   margin-bottom: 15px;
 }
 
 a {
-  color: #433547;
+  color: $brown;
   font-weight: 700;
   text-decoration: none;
   &:hover {
@@ -31,29 +40,29 @@ a {
 }
 
 h1 {
-  background-color: #F2385A;
-  color: #fff;
+  background-color: $pink;
+  color: $white;
   font-style: italic;
   font-weight: 100;
   font-size: 4rem;
   &.contact {
-    background: #F5A503;
+    background: $orange;
     font-size: 1.8rem;
     margin-bottom: 15px;
   }
 }
 
 h2 {
-  background-color: #4AD9D9;
-  color: #fff;
+  background-color: $light-blue;
+  color: $white;
   font-style: italic;
   font-weight: 100;
   font-size: 3em;
 }
 
 h3 {
-  background-color: #36B1BF;
-  color: #fff;
+  background-color: $dark-blue;
+  color: $white;
   font-style: italic;
   font-weight: 100;
   font-size: 2em;
